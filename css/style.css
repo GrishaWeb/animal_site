@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../image/Dog.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header_content {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    max-width: 470px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a h3 {
+    font-size: 18px;
+    font-family: "Georgia";
+    color: rgb(241, 205, 179);
+}
+
+.logo a p {
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(205, 205, 205);
+    padding-bottom: 5px;
+    border-bottom: 4px solid transparent;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    border-bottom: 4px solid #f1cdb3;
+}
+
+.About_the_shelter__Cozy_House {
+    font-size: 35px;
+    font-family: 'Recursive', sans-serif;
+    color: rgb(84, 84, 84);
+    line-height: 1.286;
+}
+
+.about_text {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(76, 76, 76);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.dog_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    width: 100%;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+}
+
+.About_the_shelter__Cozy_House h2 {
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+}
+
+.about_content {
+    width: 70%;
+    min-height: 570px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+/* .nav_efekt {
+        display: inline-block;
+        color: #f1cdb3;
+        text-decoration: none;
+    }
+
+    .nav_efekt::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #f1cdb3;
+        transition: width .3s;
+    }
+
+    .nav_efekt:hover::after {
+        width: 100%;
+        transition: width .3s;
+    } */
+
+.our_animals {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+}
+
+.our_friends {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+
+.animal_bio {
+    width: 275px;
+    min-height: 435px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    background-color: #fafafa;
+    transition: .5s;
+}
+
+.animal_bio:hover {
+    box-shadow: 0px 2px 30.1px 4.9px rgba(13, 13, 13, 0.04);
+}
+
+.animal_bio:hover .learn_more button {
+    background-color: #fddcc4;
+    transition: .5s;
+}
+
+.button_learn {
+    outline: none;
+}
+
+.our_friends_who {
+    margin: 0 auto;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    text-align: center;
+    padding: 75px 0 60px;
+}
+
+.animal_pic {
+    width: 270px;
+}
+
+.animal_name {
+    font-size: 20px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 2.25;
+    text-align: center;
+}
+
+.button_learn {
+    width: 188px;
+    height: 52px;
+    border: 1px solid #fddcc4;
+    border-radius: 100px;
+    background: #fafafa;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Georgia";
+    color: rgb(41, 41, 41);
+    text-align: center;
+}
+
+.learn_more :hover {
+    background-color: #fddcc4;
+    transition: 0.3s;
+}
+
+.learn_more {
+    text-align: center;
+}
+
+.animal_slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.get_to {
+    max-width: 250px;
+    width: 100%;
+    min-height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Georgia";
+    color: rgb(41, 41, 41);
+}
+
+.but_class {
+    width: 188px;
+    height: 52px;
+    border: 1px solid #fddcc4;
+    border-radius: 100px;
+    background: #fafafa;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Georgia";
+    color: rgb(41, 41, 41);
+    text-align: center;
+    outline: none;
+}
+
+.get_to :hover {
+    background-color: #fddcc4;
+    transition: 0.3s;
+}
+
+.than_you_class {
+    height: 200px;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 1.286;
+    text-align: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.shelter {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dog {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+}
+
+.dog img {
+    width: 100%;
+    height: auto;
+}
+
+.menu_from-icon {
+    max-width: 200px;
+    width: 100%;
+    min-height: 180px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_pic {
+    height: 65px;
+    width: 75px;
+}
+
+.icon_img {
+    width: 100%;
+    height: auto;
+}
+
+.icon_menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.credit_card {
+    height: 440px;
+    background-color: #f6f6f6;
+}
+
+.dog_credit {
+    min-height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dog_pic {
+    max-width: 550px;
+    width: 100%;
+}
+
+.pic_dog {
+    width: 100%;
+    height: auto;
+}
+
+.credit {
+    display: flex;
+    flex-direction: column;
+}
+
+.addition {
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 1.286;
+    margin-bottom: 40px;
+}
+
+.name_of_bank {
+    font-size: 15px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 1.2;
+    padding-bottom: 15px;
+}
+
+.credit_number {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #f1cdb3;
+    background-color: #f1cdb3;
+    border-radius: 5px;
+    max-width: 280px;
+    width: 100%;
+    min-height: 45px;
+    align-items: center;
+}
+
+.number {
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: rgb(41, 41, 41);
+    line-height: 2.25;
+    text-align: center;
+}
+
+.card_icon {
+    padding: 0 10px;
+}
+
+.about_bank {
+    width: 400px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(178, 178, 178);
+    font-style: italic;
+    line-height: 1.5;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.not_only {
+    font-size: 44px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+    line-height: 1.295;
+    max-width: 400px;
+    width: 100%;
+}
+
+.not_only_text {
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(205, 205, 205);
+    line-height: 1.6;
+}
+
+.make_a_friend {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #fafafa;
+    font-size: 17px;
+    outline: none;
+}
+
+.button_header :hover {
+    background-color: #f1cdb3;
+    transition: 0.3s;
+}
+
+footer {
+    width: 100%;
+    min-height: 360px;
+    background-image: url(../image/background_dog.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer_content {
+    max-width: 740px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.for {
+    max-width: 280px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.for p {
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+}
+
+.for a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: rgb(241, 205, 179);
+    line-height: 1.25;
+    ;
+}
+
+.mail_tel i {
+    padding-right: 15px;
+}
+
+.mail_tel {
+    margin-top: 10px;
+    min-height: 50px;
+}
